@@ -1,5 +1,7 @@
 # testVedita
 
+## Vue2, Vuetify, Scss
+
 ## Deployed project
 ```
 https://test-vedita.vercel.app
