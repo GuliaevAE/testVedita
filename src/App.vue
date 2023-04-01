@@ -21,22 +21,22 @@
                 v-if="countOfUsers.length===0"
                 @click="addUser"
                 color="newPyrple white--text"
-                class="px-2 px-md-4"
+                class="px-2 px-sm-4"
                 min-width="0"
               >
-                <span class="d-none d-md-inline">Добавить</span>
-                <v-icon class="d-md-none d-xs-inline px-0">mdi-plus</v-icon>
+                <span class="d-none d-sm-inline">Добавить</span>
+                <v-icon class="d-sm-none d-xs-inline px-0">mdi-plus</v-icon>
               </v-btn>
               <v-btn
                 v-else
                 @click="changeRedacting"
                 :disabled="availableToSave"
                 color="newPyrple white--text"
-                class="px-2 px-md-4"
+                class="px-2 px-sm-4"
                 min-width="0"
               >
-                <span class="d-none d-md-inline">Сохранить</span>
-                <v-icon class="d-md-none d-xs-inline px-0">mdi-check</v-icon>
+                <span class="d-none d-sm-inline">Сохранить</span>
+                <v-icon class="d-sm-none d-xs-inline px-0">mdi-check</v-icon>
               </v-btn>
             </v-col>
           </v-row>
