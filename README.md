@@ -1,6 +1,4 @@
-# testVedita
-
-## Vue2, Vuetify, Scss
+# testVedita (Vue2, Vuetify, Scss)
 
 ## Deployed project
 ```
